@@ -1,5 +1,3 @@
 class WelcomeController < ApplicationController
-  def index
-  	@ls = `ls`
-  end
+  def index; end
 end
